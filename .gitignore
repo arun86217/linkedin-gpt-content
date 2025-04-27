@@ -1,0 +1,41 @@
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Ignore virtual environments
+venv/
+env/
+ENV/
+.venv/
+.virtualenv/
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore IDE/editor settings
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore logs and local databases
+*.log
+*.sqlite3
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
+
+# If you're using pipenv or poetry, also ignore their environments (optional)
+pipenv/
+.poetry/
+
+# Optional: dotenv files
+.env
+.env.*
+	
